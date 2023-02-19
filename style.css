@@ -1,38 +1,16 @@
-.savingContainer{
-display: none;
-position: fixed;
-    top: 20%;
-    padding: 10px;
-    width: 700px;
-    left: 30%;
-    border: 1px solid black;
-    color: #fff;
-    background: rgb(28,28,28);
-    box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px, rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px, rgb(0 0 0 / 9%) 0px -3px 0px;
-    border-radius: 6px;
+.sidebar-spotify::-webkit-scrollbar{
+    width: 8px;
+    background-color: #121212;
 }
-.savingContainer h4{
-    text-align: left;
-    font-size: 1.7em;
-    padding: 30px 30px 20px;
-    
-    border-bottom: 1px solid #cec0c0;
-    margin-bottom: 3px;
-    font-weight: 400;
-    text-transform: inherit;
-    display: flex;
-    justify-content: space-between;
+.sidebar-spotify::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background-color: #535353;
 }
-.offerDetails{
-    margin-top: 12px;
+.content-spotify::-webkit-scrollbar{
+    width: 8px;
+    background-color: #181818;
 }
-.offerItem{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 20px;
-    font-size: 0.99em;
-}
-.offerItem img{
-    width: 65px;
+.content-spotify::-webkit-scrollbar-thumb{
+    border-radius: 8px;
+    background-color: #535353;
 }
